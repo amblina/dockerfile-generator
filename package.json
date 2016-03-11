@@ -1,0 +1,35 @@
+{
+  "name": "dockerfile-generator",
+  "version": "1.0.0",
+  "description": "Generate Dockerfile for NodeJS projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mlabouardy/dockerfile-generator.git"
+  },
+  "bin": {
+    "dockerfile-generator": "bin/index.js"
+  },
+  "keywords": [
+    "Docker",
+    "Dockerfile",
+    "Plugin",
+    "NPM",
+    "NodeJS",
+    "ExpressJS"
+  ],
+  "author": "Mohamed Labouardy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mlabouardy/dockerfile-generator/issues"
+  },
+  "homepage": "https://github.com/mlabouardy/dockerfile-generator#readme",
+  "dependencies": {
+    "ascii-banner": "0.0.2",
+    "fs": "0.0.2",
+    "optimist": "^0.6.1"
+  }
+}
