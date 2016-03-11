@@ -1,5 +1,5 @@
 {
-  "name": "dockerfile-generator",
+  "name": "dockerfile-gen",
   "version": "1.0.0",
   "description": "Generate Dockerfile for NodeJS projects",
   "main": "index.js",
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/mlabouardy/dockerfile-generator.git"
   },
   "bin": {
-    "dockerfile-generator": "bin/index.js"
+    "dockerfile-gen": "bin/index.js"
   },
   "keywords": [
     "Docker",

@@ -7,13 +7,13 @@ Generate Dockerfile to build Docker image for a NodeJS project.
 Install module globally
 
 ```sh
-npm install -g dockerfile-generator
+npm install -g dockerfile-gen
 ```
 
 Run module
 
 ```sh
-dockerfile-generator --port 3000
+dockerfile-gen --port 3000
 ```
 
 ## Example:
